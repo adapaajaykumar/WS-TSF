@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-loaded_model = pickle.load(open("C:/Users/Adapa Ajay kumar/Desktop/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 
 def predict_sales_for_date(input_date):
     # Forecast sales for the input date

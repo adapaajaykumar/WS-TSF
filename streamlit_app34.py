@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 

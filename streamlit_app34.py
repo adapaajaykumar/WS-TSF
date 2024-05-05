@@ -16,7 +16,7 @@ def main():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://img.freepik.com/premium-vector/calendar-with-checkmark-tick-approved-schedule-date-vector-stock-illustration_100456-6728.jpg?w=1060");
+            background-image: url("https://images.pexels.com/photos/1034425/pexels-photo-1034425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
             background-size: cover;
         }}
         </style>
